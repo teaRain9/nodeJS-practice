@@ -1,12 +1,21 @@
 {
-  "name": "practice",
+  "name": "node-practice",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "my first backend experience",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Adel",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teaRain9/nodeJS-practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/teaRain9/nodeJS-practice/issues"
+  },
+  "homepage": "https://github.com/teaRain9/nodeJS-practice#readme"
 }
