@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
   },
   "keywords": [],
   "author": "Adel",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/teaRain9/nodeJS-practice/issues"
   },
-  "homepage": "https://github.com/teaRain9/nodeJS-practice#readme"
+  "homepage": "https://github.com/teaRain9/nodeJS-practice#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
