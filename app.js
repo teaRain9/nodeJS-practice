@@ -1,8 +1,12 @@
-const http = require("http");
-const routes = require('./routes')
+const express = require('express');
+const shopRouter = require('./routes/shop')
+const adminRoutes = require('./routes/admin')
 
-console.log(routes.someText)
+const app = express();
 
-const server = http.createServer(routes.handler)
+app.use(adminRoutes)
 
-server.listen(3000);
+app.use(shopRouter)
+
+app.listen(3000);
+
